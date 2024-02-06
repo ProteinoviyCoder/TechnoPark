@@ -205,11 +205,11 @@ function modalWindow() {
 
   const modalLogo = document.createElement("img");
   modalLogo.classList.add("modal__header-logo");
-  modalLogo.src = "../images/afterpay-logo.svg";
+  modalLogo.src = "./images/afterpay-logo.svg";
 
   const modalClose = document.createElement("img");
   modalClose.classList.add("modal__header-close");
-  modalClose.src = "../images/close.png";
+  modalClose.src = "./images/close.png";
   modalClose.addEventListener("click", function () {
     container.remove();
   });
